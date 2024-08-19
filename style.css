@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Kaushan+Script&family=Merienda&family=Permanent+Marker&family=Playwrite+AU+TAS:wght@100..400&family=Playwrite+SK:wght@100..400&display=swap');
+#display{
+    height: 200px;
+    width:250px;
+    border:2px solid black;
+    background-color: white;
+    padding: 180px;
+    margin:10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    color:firebrick;
+    margin-bottom: 60px;
+    border: 10px solid coral;
+    background-color: aqua;
+    padding: 10px 20px;
+    font-family:"Permanent Marker", cursive; 
+    text-align: center;
+}
+body{
+    background-image: url("pic.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1:hover{
+    background-color: crimson;
+    border: 10px solid powderblue ;
+    color:white;
+    transform:scale(1.1); 
+}
+label { 
+    text-align: center; 
+    display: inline-block;
+    width:300px;
+    font-weight:bolder;
+    font-size: 30px;
+    background: linear-gradient(to left, #ebf706, 
+                    #ff0202, #e905e9); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    font-family: "Merienda", cursive;
+}
+input[placeholder]{
+    text-align:center;
+}
+input{
+    border: 3px solid;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#btn{
+    text-align: center; 
+}
+button:hover{
+    transform:scale(1.13); 
+}
+button{
+    background-color: yellow;
+    padding: 10px 20px;  
+    color: rgb(20, 5, 241);
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: oblique;
+    box-shadow: 2px 6px 5px green;
+}
+.data{
+    display: inline;
+}
+main{
+    display:flex;            
+    justify-content:space-evenly;
+    align-items: center;
+    animation-name:animate;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    border-radius: 50px;
+    animation-iteration-count: infinite;
+    padding: 20px;
+    border:10px solid black;
+
+}
+@keyframes animate {
+    0%{
+        background-color:rgb(58, 168, 132); 
+    }
+    20%{
+        background-color:pink;
+    }
+    30%{
+        background-color:paleturquoise;
+    }
+    50%{
+        background-color:rgb(194, 179, 112);
+    }
+    70%{
+        background-color:palegreen;
+    }
+    100%{
+        background-color:plum;
+       
+    }
+}  
