@@ -41,8 +41,8 @@ label {
     font-size: 30px;
     background: linear-gradient(to left, #ebf706, 
                     #ff0202, #e905e9); 
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text; 
+    color: transparent; 
+    background-clip: text; 
     font-family: "Merienda", cursive;
 }
 input[placeholder]{
